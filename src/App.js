@@ -6,18 +6,46 @@ import Routes from "react-static-routes";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 
 import "./app.css";
+import logo from "./images/logo.png";
 
 const App = () => (
   <Router>
-    <div>
-      <LanguageSwitcher />
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/why-unionize">Why Unionize?</Link>
+    <div className="grid">
+      <div className="grid-logo">
+        <img src={logo} />
       </div>
-      <div className="content">
+      <header className="grid-header">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly"
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "flex-end"
+            }}
+          >
+            <LanguageSwitcher />
+          </div>
+          <h1>Sweet header</h1>
+        </div>
+      </header>
+      <aside className="grid-nav">
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <Link to="/">Home</Link>
+          <Link to="why-unionize">Why unionize?</Link>
+        </div>
+      </aside>
+      <div className="grid-subhead">
+        <h2>cool subheader</h2>
+      </div>
+      <article className="content">
         <Routes />
-      </div>
+      </article>
+      <footer className="grid-footer">{/* Footer */}</footer>
     </div>
     )} />
   </Router>

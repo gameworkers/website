@@ -22,7 +22,13 @@ const LanguageSwitcher = withSiteData(({ langs, defaultLang }) => (
 
       return (
         <React.Fragment>
-          <nav>
+          <nav
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              width: "120px"
+            }}
+          >
             {langs.map((lang, i) => {
               const prefix = lang === defaultLang ? "" : `${lang}/`;
               return lang === currentLang ? (

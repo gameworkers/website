@@ -52,7 +52,7 @@
     /* Basic web fallback */ "Helvetica Neue", Arial, sans-serif;
 
   --body-text: "Mercury", var(--base-font-stack);
-  --body-text-size: 16px;
+  --body-text-size: 20px;
   --body-text-weight: normal;
   --body-text-line-height: 1.4;
   --body-text-color: var(--text-color);
@@ -72,11 +72,63 @@
 /* prettier-ignore */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-text);
+  text-transform: uppercase;
 }
 
-.content img,
-.nc-widgetPreview img {
+.content img {
   max-width: 100%;
+}
+
+.grid-logo {
+  grid-area: logo;
+}
+
+.grid-logo img {
+  max-width: 100%;
+}
+
+.grid-header {
+  grid-area: header;
+}
+
+.grid-nav {
+  grid-area: nav;
+}
+
+.grid-subhead {
+  grid-area: subhead;
+}
+
+.grid-footer {
+  grid-area: footer;
+}
+
+.content {
+  grid-area: content;
+}
+
+.grid {
+  max-width: 940px;
+  margin: 0px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media screen and (min-width: 50em) {
+  .grid {
+    margin: 20px auto;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "logo header"
+      "nav subhead"
+      "nav content"
+      "footer footer";
+  }
+
+  /* .grid-header,
+  .grid-footer {
+    grid-column: 1 / -1;
+  } */
 }
 
 /* body {
