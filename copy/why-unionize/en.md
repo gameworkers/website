@@ -39,11 +39,12 @@ The current director of the IGDA, Jen MacLean, was CEO of 38 Studios back when
 they laid off their entire staff in what was [one of the largest scandals in
 game development
 history](https://www.bostonmagazine.com/2012/07/23/38-studios-end-game/). In a
-[recent interview](https://www.usgamer.net/articles/igda-director-union-
-crunch-interview), MacLean defends crunch as a “choice some of us make” and toes
-the line with anti-union rhetoric like _“right now we have an oversupply of
-people who want to be game developers [...] if somebody leaves there are a
-hundred people lined up to take their place.”_
+[recent
+interview](https://www.usgamer.net/articles/igda-director-union-crunch-interview),
+MacLean defends crunch as a “choice some of us make” and toes the line with
+anti-union rhetoric like _“right now we have an oversupply of people who want to
+be game developers \[...\] if somebody leaves there are a hundred people lined up
+to take their place.”_
 
 **Employers will often do everything they can to discourage their employees from
 unionizing**, including threatening to outsource jobs or move them overseas, or

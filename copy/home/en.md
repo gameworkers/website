@@ -7,4 +7,4 @@ widespread issues like **unpaid overtime**, **mass layoffs**, or wages that are 
 lower than the rest of the tech sector. Unions are a **tried and tested** way for
 workers to fight back against exploitation and abuse.
 
-## **_Game workers of the world, unite!_**
+# Game workers of the world, unite!
