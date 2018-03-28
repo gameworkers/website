@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG1Roman.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG1Bold.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG1Italic.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Mercury";
+  src: url("fonts/Mercury-TextG1BoldItalic.woff2") format("woff2"),
+    url("fonts/Mercury-TextG1BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Bold.woff2") format("woff2"),
+    url("fonts/Gotham-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #e33;
+  --text-color: #222;
+  --text-color-muted: color(var(--text-color) blackness(-20%));
+
+  --base-font-stack:
+    /* Safari for OS X and iOS (San Francisco) */ -apple-system,
+    /* Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android */
+      system-ui,
+    /* Chrome < 56 for OS X (San Francisco) */ BlinkMacSystemFont,
+    /* Windows */ "Segoe UI", /* Android */ "Roboto",
+    /* Basic web fallback */ "Helvetica Neue", Arial, sans-serif;
+
+  --body-text: "Mercury", var(--base-font-stack);
+  --body-text-size: 16px;
+  --body-text-weight: normal;
+  --body-text-line-height: 1.4;
+  --body-text-color: var(--text-color);
+
+  --body-background: #fff;
+
+  --link-color: var(--primary-color);
+  --link-decoration: none;
+  --link-hover-color: color(var(--link-color) blackness(+20%));
+  --link-hover-decoration: underline;
+
+  --header-text: "Gotham", var(--base-font-stack);
+}
+
+@import "./reboot.css";
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-text);
+}
+
+.content img,
+.nc-widgetPreview img {
+  max-width: 100%;
+}
+
+/* body {
+  font-family: var(--body-text);
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+} */
+
+/*
+a {
+  text-decoration: none;
+  color: #108db8;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  background: #108db8;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.content {
+  padding: 1rem;
+}
+.image {
+  width: 25%;
+  min-width: 250px;
+  height: auto;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+} */
