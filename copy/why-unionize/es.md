@@ -1,7 +1,7 @@
 ---
 title: 'Why unionize?'
 ---
-## ¿Qué es un sindicato?
+# ¿Qué es un sindicato?
 
 Un **sindicato** es una organización de trabajadorxs dedicadxs a mejorar
 salarios, horas y condiciones laborales en su espacio laboral o industria
@@ -9,7 +9,7 @@ mediante la negociación colectiva. **Los sindicatos aprovechan el poder
 colectivo de lxs trabajadorxs para oponer un contrapeso al poder de los jefes y
 accionistas.**
 
-## ¿Cómo benefician los sindicatos a lxs trabajadorxs?
+# ¿Cómo benefician los sindicatos a lxs trabajadorxs?
 
 **Lxs trabajadorxs agremiadxs tienen salarios promedios mayores que lxs no
 agremiadxs**, con frecuencia de un 15% a un 25% más. Los sindicatos **benefician
@@ -17,7 +17,7 @@ hasta a lxs trabajadorxs que no están agremiadxs** elevando el nivel para todo
 el mundo. Por ejemplo, una persona graduada de la secundaria en Estados Unidos
 cuyo lugar de trabajo _no_ está gremializado pero que trabaja en una industria
 25% gremializada [cobra más que trabajadorxs similares en industrias menos
-gremializadas]((https://www.epi.org/publication/briefingpapers_bp143/).
+gremializadas](https://www.epi.org/publication/briefingpapers_bp143/).
 
 
 Los sindicatos también pueden **ayudar a reducir la desigualdad**. Si bien
@@ -25,7 +25,7 @@ Los sindicatos también pueden **ayudar a reducir la desigualdad**. Si bien
 benefician más son típicamente las personas **más desfavorecidas o en las
 posiciones más precarias**.
 
-## Algunas causas que los sindicatos pelearon y ganaron en el pasado
+# Algunas causas que los sindicatos pelearon y ganaron en el pasado
 
 - Cobertura de salud
 - Terminar con las horas extras no pagas
@@ -39,9 +39,9 @@ posiciones más precarias**.
 
 La directora actual de la IGDA, Jen MacLean, era CEO de 38 Studios cuando
 [despidieron a todo su personal en
-2012]((https://www.bostonmagazine.com/2012/07/23/38-studios-end-game/). En una
+2012](https://www.bostonmagazine.com/2012/07/23/38-studios-end-game/). En una
 [entrevista
-reciente]((https://www.usgamer.net/articles/igda-director-union-crunch-interview),
+reciente](https://www.usgamer.net/articles/igda-director-union-crunch-interview),
 MacLean habla del crunch como una “decisión que algunos de nosotros tomamos” y
 se acerca a la retórica anti-gremial como _“ahora mismo tenemos un exceso
 personas que quieren ser desarrolladoras de juegos \[…\] si alguien se va hay
