@@ -130,20 +130,26 @@ export default {
           path.join(__dirname, "dist/admin/cms.css")
         );
 
-        writeFileSync(
-          path.join(__dirname, "dist/admin/config.yml"),
-          generateCMSConfig()
+        copyFileSync(
+          require.resolve("netlify-cms/dist/cms.js"),
+          path.join(__dirname, "dist/admin/cms.js")
         );
 
-        // copyFileSync(
-        //   path.join(__dirname, "src/cms/config.yml"),
-        //   path.join(__dirname, "dist/admin/config.yml")
-        // );
+        copyFileSync(
+          require.resolve("netlify-cms/dist/cms.js.map"),
+          path.join(__dirname, "dist/admin/cms.js.map")
+        );
 
         copyFileSync(
           path.join(__dirname, "src/cms/index.html"),
           path.join(__dirname, "dist/admin/index.html")
         );
+
+        writeFileSync(
+          path.join(__dirname, "dist/admin/config.yml"),
+          generateCMSConfig()
+        );
+
         res();
       })
     );

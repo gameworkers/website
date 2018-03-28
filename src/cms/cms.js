@@ -1,4 +1,4 @@
-import CMS from "netlify-cms";
+/* global CMS:false */
 
 import "../app.css"; // should compile to './main.css
 
